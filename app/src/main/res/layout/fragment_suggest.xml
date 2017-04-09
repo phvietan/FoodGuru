@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.findfood.findfood.SuggestActivityFragment"
+    tools:showIn="@layout/activity_suggest">
+
+    <RadioGroup
+        android:id="@+id/GroupCategory"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="1. Bạn khát nước hay thèm đồ ăn?"
+            android:id = "@+id/question0"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Đang thèm ăn"
+            android:id = "@+id/answer00"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Thôi, đang khát nước"
+            android:id = "@+id/answer01"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/GroupPrice"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="2. Bạn có đang viêm màng túi không?"
+            android:id="@+id/question1"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Đang bị viêm màng túi rồi :("
+            android:id="@+id/answer10"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Chơi sang đi"
+            android:id="@+id/answer11"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/GroupDistance"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="3. Quán ăn xa thì có đi không?"
+            android:id="@+id/question2"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Quẩy luôn"
+            android:id = "@+id/answer20"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Quán nào gần thôi"
+            android:id = "@+id/answer21"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:onClick="SuggestMe"/>
+    
+    <TextView
+        android:id="@+id/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Xin vui lòng trả lời tất cả câu hỏi"
+        android:textColor="@color/red"
+        android:visibility="invisible"/>
+
+</LinearLayout>

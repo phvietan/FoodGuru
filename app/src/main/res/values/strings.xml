@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">FoodGuru</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_settings">add_Setting</string>
+    <string name="fa_icon_add">ADD</string>
+    <string name="add_item">add_Item</string>
+    <string name="title_activity_add_item">Chi tiết</string>
+    <string name="title_activity_detail">Chi tiết</string>
+    <string name="add_item_location">Địa điểm</string>
+    <string name="add_item_comment">Nhận xét</string>
+    <string name="add_item_category">Loại</string>
+    <string name="delete_button">Xóa</string>
+    <string name="add_item_distance">Khoảng cách</string>
+    <string name="add_item_price">Giá cả</string>
+    <string name="action_suggest">ASK</string>
+    <string name="detail_category">Loại</string>
+    <string name="detail_location">Tên</string>
+    <string name="edit_distance">Lấy khoảng cách mới</string>
+    <string name="detail_menu_delete">Xóa</string>
+    <string name="detail_menu_edit">Chỉnh sửa</string>
+    <string name="add_item_have_location">Bạn có đang ở quán?</string>
+    <string name="DetailDontHaveCoor">"???"</string>
+    <string name="edit_place">Chọn vị trí mới</string>
+    <!--<string name="DetailDontHaveCoor">Chưa xác định được</string>-->
+    <string name="suggest_special_case">Tính luôn những quán chưa xác định địa điểm?</string>
+    <string name="add_item_button">Chọn vị trí</string>
+    <string-array name="add_item_location_category">
+        <item>Buffet</item>
+        <item>Nhà hàng</item>
+        <item>Vỉa hè</item>
+        <item>Quán ăn</item>
+        <item>Tiệm bánh</item>
+        <item>Quán nước</item>
+        <item>Cafe</item>
+        <item>Bar/pub</item>
+        <item>Quán nhậu</item>
+    </string-array>
+
+    <string-array name="add_item_price">
+        <item>Bình dân</item>
+        <item>Vừa</item>
+        <item>Cao</item>
+        <item>Thượng lưu</item>
+    </string-array>
+
+    <string-array name="ask_user_category">
+        <item>Bạn khát nước hay thèm đồ ăn?</item>
+        <item>Bạn thèm đồ ăn hay khát nước?</item>
+        <item>Ăn hay uống nào?</item>
+    </string-array>
+
+    <string-array name="answer_category_eat">
+        <item>Đang thèm ăn</item>
+        <item>Bụng đang cồn cào nè</item>
+        <item>Ăn đi</item>
+    </string-array>
+
+    <string-array name="answer_category_drink">
+        <item>Thôi, đang khát nước</item>
+        <item>Đang khô họng đây nè</item>
+    </string-array>
+
+    <string-array name="ask_user_price">
+        <item>Bạn có đang viêm màng túi không?</item>
+        <item>Bạn muốn chơi sang không?</item>
+    </string-array>
+
+    <string-array name="answer_price_cheap">
+        <item>Đang bị viêm màng túi rồi</item>
+        <item>Đang nghèo</item>
+        <item>Đi đâu rẻ thôi</item>
+    </string-array>
+
+    <string-array name="answer_price_expensive">
+        <item>Chơi sang đi</item>
+        <item>Sang chảnh đi</item>
+        <item>Đang giàu lắm :)</item>
+    </string-array>
+
+    <string-array name="ask_user_distance">
+        <item>Đủ xăng để đi xa không?</item>
+        <item>Quán ăn xa thì có đi không?</item>
+    </string-array>
+
+    <string-array name="answer_distance_near">
+        <item>Đang thiếu xăng</item>
+        <item>Quán nào gần thôi</item>
+        <item>Lười lắm, gần thôi</item>
+    </string-array>
+
+    <string-array name="answer_distance_far">
+        <item>Quẩy hết</item>
+        <item>Xăng còn đầy lắm</item>
+    </string-array>
+
+    <string name="title_activity_suggest">Gợi ý</string>
+    <string name="title_activity_show_suggest">Gợi ý</string>
+    <string name="no_title"></string>
+    <string name="title_activity_edit">Chỉnh sửa</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.findfood.findfood.MainActivity">
+
+    <item
+        android:title="@string/no_title"
+        android:icon="@drawable/ask"
+        android:id="@+id/action_suggest"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/add"
+        android:title="@string/no_title"
+        app:showAsAction="always" />
+</menu>

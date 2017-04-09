@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="BaseColor">#E8D939</color>
+    <color name="menu_bar_orange">#f9690e</color>
+    <color name="red">#FF0000</color>
+    <color name="floatingbuttoncolor">#6599ff</color>
+    <color name="green">#32CD32</color>
+</resources>
