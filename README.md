@@ -1,8 +1,8 @@
 # FoodGuru. Author: Pham Viet An - Phan Minh Hoang
 
 FoodGuru is an android application for Vietnamese users. 
-Its main purpose is storing a list of restaurants that a person has saved. By using that database, it will give advices to user about 
-which restaurants are the best based on: geographical location, food/drink, price, ...
+Its main purpose is storing a list of restaurants that a person has saved. By using that database, FoodGuru will give advices to user about 
+which restaurants are the best to hangout with their friends, based on: geographical location, food/drink, price, ...
 
 FoodGuru requires the user to enable their GPS upon the first time opening the app.
 Below is the interface of the app:
