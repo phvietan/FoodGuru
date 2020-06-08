@@ -7,28 +7,40 @@ which restaurants are the best to hangout with their friends, based on: geograph
 FoodGuru requires the user to enable their GPS upon the first time opening the app.
 Below is the interface of the app:
 
-The home activity:
-http://imgur.com/HZpu6lY
+### The home activity:
 
-Click the '+' button to add new restaurant, then fill in the detail for the restaurant:
-http://imgur.com/8guiodO
+<img src="https://i.imgur.com/HZpu6lY.png">
 
-And press the button 'Chon Vi Tri' to choose location on the map. User can even search the address on the search bar:
-http://imgur.com/lFdpAUM
+### Click the '+' button to add new restaurant, then fill in the detail for the restaurant:
 
-After we've done adding the restaurant, we can see that the new restaurant is added at beneath:
-http://imgur.com/UkpVVMT
+<img src="https://i.imgur.com/8guiodO.png">
 
-We can check the detail of the restaurant by clicking on them:
-http://imgur.com/YDo4BWM
+### Press the button 'Chon Vi Tri' to choose location on the map. User can even search the address on the search bar:
 
-After that, we can check its place on the map by clicking onto "Xem tren ban do" button, 
-or editing the detail of this restaurant by pressing the button at top right corner.
-Map: http://imgur.com/9SyJAvC. Edit: http://imgur.com/F4fOqYf.
+<img src="https://i.imgur.com/lFdpAUM.png">
 
-Back to the home screen, user can get advices from FoodGuru by clicking on the 'light bulb' icon.
-At this page, user need to choose answers which is asked by FoodGuru:
-http://imgur.com/KUtSPfa
+### After we've done adding the restaurant, we can see that the new restaurant is added at beneath:
 
-By clicking OK, FoodGuru will then generate list of restaurant which meets the requirement of the user: 
-http://imgur.com/Xnt3gq8
+<img src="https://i.imgur.com/UkpVVMT.png">
+
+### We can check the detail of the restaurant by clicking on them:
+
+<img src="https://i.imgur.com/YDo4BWM.png">
+
+### After that, we can check its place on the map by clicking onto "Xem tren ban do" button, or editing the detail of this restaurant by pressing the button at top right corner.
+
+#### Map:
+
+<img src="https://i.imgur.com/9SyJAvC.png">
+
+#### Edit:
+
+<img src="https://i.imgur.com/F4fOqYf.png">
+
+### Back to the home screen, user can get advices from FoodGuru by clicking on the 'light bulb' icon. At this page, user need to choose answers which is asked by FoodGuru:
+
+<img src="https://i.imgur.com/KUtSPfa.png">
+
+### By clicking OK, FoodGuru will then generate list of restaurant which meets the requirement of the user: 
+
+<img src="https://i.imgur.com/Xnt3gq8.png">
